@@ -25,7 +25,7 @@ arr.unshift(6)
 console.log(arr)
 
 arr.shift()
-console.log(arr)
+console.log(arr) 
 
 if(12 === "12"){
     console.log("locha")
