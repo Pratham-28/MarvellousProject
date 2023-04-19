@@ -1,0 +1,12 @@
+<input type="number" placeholder="Enter a number" [(ngModel)]="inputFromUser">
+
+<button (click)="chkPrimeNumber()">Prime Number Checker</button>
+
+<h1 *ngIf="isButtonClick">{{message}}</h1>
+
+<br><br><br><br>
+<input type="text" placeholder="Enter a string" [(ngModel)]="inputFromUser1">
+
+<button (click)="countCaptialLetters()">Count Capital Letters</button>
+
+<h1 *ngIf="isButtonClick">Count of capital letters is {{count}}</h1>

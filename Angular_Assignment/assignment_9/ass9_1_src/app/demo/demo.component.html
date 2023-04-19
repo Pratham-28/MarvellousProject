@@ -1,0 +1,11 @@
+<input type="number" placeholder="Enter the first number" [(ngModel)]="firstNumber">
+
+<input type="number" placeholder="Enter the second number" [(ngModel)]="secondNumber">
+<br><br><br>
+<button (click)="callAddService()">Add above 2 numbers</button>
+
+<button (click)="callSubtractService()">Subtract above 2 numbers</button>
+
+<h1>Addition of 2 numbers is {{resultOfAddition}}</h1>
+
+<h1>Subtraction of 2 numbers is {{resultOfSubtraction}}</h1>

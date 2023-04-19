@@ -1,0 +1,5 @@
+<input type="text" placeholder="Enter a string" [(ngModel)]="inputFromUser">
+
+<button (click)="countCaptialLetters()">Count Capital Letters</button>
+
+<h1 *ngIf="isButtonClick">Count of capital letters is {{count}}</h1>
